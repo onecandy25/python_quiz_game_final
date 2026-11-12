@@ -167,8 +167,8 @@ class QuizGame:
             print(f"🎉 신기록 달성! 최고 점수: {self.best_score}점")
             self.save_state()  # 최고 점수 갱신 시 저장
 
-    def show_quiz_count(self):
-        print(f"\n현재 등록된 문제는 총 {len(self.quizzes)}개입니다.")
+            def show_quiz_count(self):
+            print(f"\n현재 등록된 문제는 총 {len(self.quizzes)}개입니다.")
 
     # ---------- 문제 추가 ----------
     def add_quiz(self):
